@@ -1,0 +1,33 @@
+{
+  "name": "mikeysee-build-helpers",
+  "version": "0.0.1",
+  "description": "A collection of helpful build tools",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -p . --watch",
+    "build": "tsc -p .",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikecann/mikeysee-build-helpers.git"
+  },
+  "keywords": [
+    "helpers",
+    "typescript",
+    "mikecann"
+  ],
+  "author": "Mike Cann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikecann/mikeysee-build-helpers/issues"
+  },
+  "homepage": "https://github.com/mikecann/mikeysee-build-helpers#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^2.0.0"
+  }
+}
