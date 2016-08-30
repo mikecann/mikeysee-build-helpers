@@ -26,6 +26,14 @@
   },
   "homepage": "https://github.com/mikecann/mikeysee-build-helpers#readme",
   "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.9",
+    "lodash": "^4.15.0",
+    "run-sequence": "^1.2.2",
+    "webpack": "^1.13.2"
   },
   "devDependencies": {
     "typescript": "^2.0.0"
